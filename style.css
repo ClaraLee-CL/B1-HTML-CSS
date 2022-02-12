@@ -7,7 +7,8 @@
   font-family: 'Prompt', sans-serif;
 }
 
-.container{
+/* Main */
+.main{
   background-image: url(/images/intro.png);
   width: 100%;
   height: 718px;
@@ -73,15 +74,16 @@
   line-height: 29px;
 }
 
+
 .main-contents{
   width: 100%;
   height: 81px;
-  margin-top: 231px;
+  margin: 231px auto 317px auto;
 }
 
 .main-contents .title{
   display: flex;
-  margin: auto;
+  margin: auto; 
   width: 1280px;
   height: 57px;
   font-size: 48px;
@@ -100,41 +102,45 @@
   color: #fff;
   text-align: center;
   justify-content: center;
-}
-
-.contents{
-  /* background-color: green; */
-  width: 100%;
-  height: 132px;
-  margin-top: 251px;
-}
+} 
 
 .content-lists{
-  background-color: #fff;
+  position: relative;
+  top: -66px;
   display: flex;
-  margin: auto;
   width: 1280px;
-  height: 132px;
-  text-align: center;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, .1);
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
 }
 
-.content-lists > li{
-  margin-top: 37px;
-  height: 57px;
+.content-lists li{
+  background: #fff;
+  height: 132px;
   flex: 1;
 }
 
-.content-tit{
-  height: 24px;
-  font-size: 20px;
+.content-lists > li > div{
+  text-align: center;
+  margin-top: 37px;
+  height: 57px;
 }
 
-.content-sub{
-  height: 29px;
+.content-lists > li:not(:last-child) >div{
+  border-right: solid 2px #E1E1E1;
+} 
+
+
+.content-lists .content-tit{
+  font-size: 15px;
+}
+
+.content-lists .content-sub{
   font-size: 24px;
 }
 
-.content-lists > li:not(:last-child){
-  border-right: solid 2px #E1E1E1;
+/* About */
+.about{
+  background-color: #F1F2F3;
+  width: 100%;
+  height: 601px;
 }
