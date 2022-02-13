@@ -1,4 +1,4 @@
-# TIL-FEB2022 [S1]
+# TIL-FEB2022
 
  Today I Learn
 
