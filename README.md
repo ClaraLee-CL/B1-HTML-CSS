@@ -1,9 +1,8 @@
 # TIL-FEB2022
 
- Today | Learn
+ Today I Learn
 
-📅 Starting on 11th FEB, 2022
+📅 From on 11th Feb, 2022 to 13th Feb, 2022
 
-  1. search Bar, icon, nav Bar
-  2. contents, lists
-  3. button
+  Created a website with basic code.
+  📍 HTML & CSS
