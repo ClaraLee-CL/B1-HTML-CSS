@@ -7,6 +7,21 @@
   font-family: 'Prompt', sans-serif;
 }
 
+.title{
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.sub-title{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.description{
+  font-size: 15px;
+  font-weight: 100;
+}
+
 /* Main */
 .main{
   background-image: url(/images/intro.png);
@@ -26,7 +41,6 @@
   height: 40px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, .5);
-  color: #fff;
   margin-top: 24px;
   display: flex;
 }
@@ -42,7 +56,7 @@
 }
 
 .search_area span{
-  width: calc(300px - 250px);
+  width: 50px;
   height: 40px;
   padding-left: 4.5%;
 
@@ -56,9 +70,9 @@
 
 .nav_bar{
   display: flex;
+  width: calc(1280px - 300px);
   justify-content: flex-end;
   line-height: 86px;
-  width: calc(1280px - 300px);
 }
 
 .nav_bar > ul{
@@ -71,38 +85,20 @@
 
 .nav_bar > ul > li > a{
   color: #fff;
-  line-height: 29px;
+  /* line-height: 29px; */
 }
-
 
 .main-contents{
   width: 100%;
   height: 81px;
   margin: 231px auto 317px auto;
+  text-align: center;
 }
 
-.main-contents .title{
-  display: flex;
-  margin: auto; 
-  width: 1280px;
-  height: 57px;
-  font-size: 48px;
+.main-contents h1,
+.main-contents h6{
   color: #fff;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 3px;
 }
-
-.main-contents .sub-title{
-  display: flex;
-  margin: auto;
-  width: 1280px;
-  height: 24px;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  justify-content: center;
-} 
 
 .content-lists{
   position: relative;
@@ -110,11 +106,11 @@
   display: flex;
   width: 1280px;
   margin: auto;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .1); 
 }
 
 .content-lists li{
-  background: #fff;
   height: 132px;
   flex: 1;
 }
@@ -132,15 +128,156 @@
 
 .content-lists .content-tit{
   font-size: 15px;
+  font-weight: 200;
 }
 
 .content-lists .content-sub{
   font-size: 24px;
+  font-weight: 300;
 }
 
 /* About */
 .about{
+  width: 100%;
+  height: 601px;
+  background: #F1F2F3;
+}
+
+.about .about-text{
+  /* background: hotpink; */
+  height: 150px;
+  width: 1280px;
+  margin: auto;
+  position: relative;
+}
+
+.about .about-text > div{
+  position: absolute;
+  width: 100%;
+  margin-top: 116px;
+  text-align: center;
+}
+
+.about-info{
+  position: relative;
+  width: 1280px;
+  margin: auto;
+}
+
+.about-info .info{
+  display: flex;
+  margin-top: 123px;
+}
+
+.about-info .info .info-list{
+  flex: 1;
+  height: 302px;
+  text-align: center;
+  background: #fff;
+}
+
+.about-info .info li:not(:last-child){
+  border-right: solid 20.67px #F1F2F3;
+}
+
+.info-list .info-img{
+  width: 136px;
+  height: 128px;
+  margin-top: 36px;
+  margin: 36px auto 0px auto;
+}
+
+.info-list .info-title{
+  width: 150px;
+  height: 25px;
+  margin: auto;
+}
+
+.info-list .info-title span{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.info-list .info-detail{
+  width: 200px;
+  height: 43px;
+  margin: auto;
+}
+
+.info-list .info-detail p{
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.info-list .info-btn{
+  width: 100px;
+  height: 30px;
+  margin: 15px auto 0 auto;
+  background: #2F7AF4;
+}
+
+.info-list .info-btn span{
+  line-height: 30px;
+}
+
+
+/* .about{
   background-color: #F1F2F3;
   width: 100%;
   height: 601px;
 }
+
+.about-text{
+  width: 1280px;
+  margin: auto;
+}
+
+.about-text > div{
+  position: absolute;
+  width: 1280px;
+  height: 81px;
+  margin-top: 116px;
+  text-align: center;
+}
+
+.contents-title{
+  font-size: 48px;
+  background: chartreuse;
+}
+
+.contents-sub-title{
+  font-size: 20px;
+  background: chocolate;
+} */
+
+
+/* Service */
+/* .service{
+  background: green;
+  width: 100%;
+  height: 659px;
+}
+
+.service-text{
+  width: 1280px;
+  margin: auto;
+}
+
+.service-text div{
+  width: 1280px;
+  height: 81px;
+  text-align: center;
+}
+
+
+.contents-title{
+  font-size: 48px;
+  background: chartreuse;
+}
+
+.contents-sub-title{
+  font-size: 20px;
+  background: chocolate;
+} */
