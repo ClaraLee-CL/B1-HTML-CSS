@@ -1,6 +1,4 @@
-# TIL-FEB2022-W1
-
- Today I Learn
+# B1-HTML-CSS (Basic1)
 
 📅 From on 11th Feb, 2022 to 13th Feb, 2022
 
